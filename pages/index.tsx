@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           color={'blue.400'}
           style={{ textShadow: '1px 2px 3px rgba(0, 0, 0, 3)' }}
         >
-          <Heading>유쟈's Markplace</Heading>
+          <Heading>유쟈의 Markplace</Heading>
           <Text fontSize={'xl'} align={'center'}>
             구~경 한!번! 와보세요~ <br /> 있을 건 있고 없는 건 없는 실용적인
             것들만 모아놓은 marketplace입니다~!

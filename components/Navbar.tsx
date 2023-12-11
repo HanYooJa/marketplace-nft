@@ -17,7 +17,7 @@ const Navbar = () => {
     >
       <Flex justifyContent={'space-between'} alignItems={'center'}>
         <Link as={NextLink} href="/">
-          <Heading> 유쟈's MarketPlace </Heading>
+          <Heading> 유쟈의 MarketPlace </Heading>
         </Link>
         <Flex>
           <Link as={NextLink} href="/buy" mx={2.5}>
