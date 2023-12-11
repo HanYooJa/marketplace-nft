@@ -6,10 +6,18 @@ import NextLink from 'next/link'
 const Navbar = () => {
   const address = useAddress()
   return (
-    <Box maxW={'1200px'} m={'auto'} py={'10px'} px={'40px'} bg={'pink'}>
+    <Box
+      maxW={'1200px'}
+      m={'auto'}
+      py={'10px'}
+      px={'40px'}
+      style={{
+        background: 'linear-gradient(to right, #ff7e5f, #feb47b)',
+      }}
+    >
       <Flex justifyContent={'space-between'} alignItems={'center'}>
         <Link as={NextLink} href="/">
-          <Heading> MarketPlace </Heading>
+          <Heading> 유쟈's MarketPlace </Heading>
         </Link>
         <Flex>
           <Link as={NextLink} href="/buy" mx={2.5}>
