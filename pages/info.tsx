@@ -6,7 +6,7 @@ export default function Info() {
 
   return (
     <Container maxW={'1200px'} p={5} bg="orange.100">
-      <Heading> Infomation </Heading>
+      <Heading> Information </Heading>
       <Text>
         Developed by Yoojeong Han. <br />
         deployed by using 0xc4bb8c39977aBc36c2d7ABf1ed910165C3F6F502 (Account 4)
